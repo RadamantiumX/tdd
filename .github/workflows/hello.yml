@@ -1,0 +1,17 @@
+name: Say hello
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Echo the message
+        run: |
+          echo "Hola a todos!"
+      - name: Dime una fecha
+        run: date
+      - run: ls -l
