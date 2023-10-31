@@ -1,0 +1,28 @@
+POST http://localhost:1234/login
+Content-Type: application/json
+
+{
+    "username" : "Eduardo",
+    "password" : "1234"
+}
+
+### Notes
+GET http://localhost:1234/notes
+
+### Create Note
+POST http://localhost:1234/new-note
+Content-Type: application/json
+
+{
+    "note": "Saca lo mejor de vos",
+    "important": true
+}
+
+###New user
+POST http://localhost:1234/user
+Content-Type: application/json
+
+{
+    "username" : "Loco22",
+    "password" : "1234"
+}

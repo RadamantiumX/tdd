@@ -8,6 +8,8 @@
     "dev": "vite",
     "test": "vitest",
     "build": "vite build",
+    "start-test":"NODE_ENV=test node app.js",
+    "start-prod": "node node/app.js",
     "coverage": "vitest run --coverage",
     "eslint": "eslint",
     "cypress:open": "cypress open",

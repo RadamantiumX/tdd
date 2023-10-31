@@ -1,0 +1,17 @@
+[
+    {
+        "id": "2a973c35-b11a-439e-ac41-5797a772d339",
+        "note": "Todo para tu estudio",
+        "important": false
+    },
+    {
+        "id": "e10bfb6b-6da6-459b-9b27-d693a54cb9d2",
+        "note": "Cambiando de planes",
+        "important": true
+    },
+    {
+        "id": "f1e8b100-75d2-40ce-ab29-0c8c43506bb2",
+        "note": "Algo para compartir",
+        "important": false
+    }
+]
