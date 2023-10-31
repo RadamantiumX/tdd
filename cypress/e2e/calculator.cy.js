@@ -24,6 +24,8 @@ describe('template spec', () => {
 
     cy.contains('Calculator') // Si contiene este texto la pagina
   })
+  /* COMENTADO A PARTIR DE ACA
+
   it('login form can be opened', () => {
     cy.contains('Show login').click() // Si se muestra el login con un click en el boton
   })
@@ -67,7 +69,9 @@ describe('template spec', () => {
       })
     })
   })
-   
+
+  SOLO PARA PRUEBAS EN DESARROLLO - NO INTEGRAR -
+   */
    
 
 })

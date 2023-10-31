@@ -8,7 +8,7 @@
     "dev": "vite",
     "test": "vitest",
     "build": "vite build",
-    "start-test":"NODE_ENV=test node app.js",
+    "start-test": "NODE_ENV=test node app.js",
     "start-prod": "node node/app.js",
     "coverage": "vitest run --coverage",
     "eslint": "eslint",
@@ -19,10 +19,10 @@
     "env": {
       "cypress/globals": true
     },
-     "extends": "react-app",
-     "plugins": [
+    "extends": "react-app",
+    "plugins": [
       "cypress"
-     ]
+    ]
   },
   "keywords": [],
   "author": "",
@@ -38,6 +38,7 @@
     "vitest": "^0.34.6"
   },
   "dependencies": {
+    "express": "4.18.2",
     "mathjs": "11.11.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
