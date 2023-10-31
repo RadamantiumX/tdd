@@ -27,9 +27,9 @@ export const Calculator = () => {
   }
 
   return (
-    <section>
-      <h1>Calculator</h1>
-      <input value={value} readOnly />
+    <section style={{ marginTop: '30px' }}>
+      <h3>use Calculator</h3>
+     <input value={value} readOnly />
       <div role='grid'>
         {/** Definimos los botones */}
         {rows.map((row, index) => (
