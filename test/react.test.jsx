@@ -1,6 +1,6 @@
 import { render, screen, cleanup, fireEvent } from '@testing-library/react'
 import { afterEach, describe, it, expect } from 'vitest'
-import { Calculator, operations, numbers, equalSign } from '../src/Calculator'
+import { Calculator, operations, numbers, equalSign } from '../src/components/Calculator'
 
 describe('Calculator', () => {
   afterEach(cleanup) // Que limpie el renderizado (render) despues de cada uno, para evitar que lo haga continuamente
