@@ -15,7 +15,7 @@ describe('Calculator', () => {
   it('should render title correctly', () => {
     render(<Calculator />)
 
-    screen.getByText('Calculator')
+    screen.getByText('Use Calculator')
   })
 
   // Deberia renderizar numeros
