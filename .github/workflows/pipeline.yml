@@ -1,5 +1,5 @@
 name: Deployment Pipeline
-
+# Las Actions de cada dependencia externa a GITHUB la podemos encontrar en el MARKETPLACE de GITHUB
 on:
     push: # Evento de GIT q espera
         branches:
