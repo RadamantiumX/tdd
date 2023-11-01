@@ -1,4 +1,3 @@
-// Archivo importante para crear una aplicacion REACT
 /**
  * Colocar en el package.json el script "dev" de "vite" para poder iniciar el entorno REACT
  */
