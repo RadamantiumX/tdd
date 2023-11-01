@@ -22,7 +22,7 @@ describe('template spec', () => {
 
   it('front page can be opened', () => {
 
-    cy.contains('Calculator') // Si contiene este texto la pagina
+    cy.contains('Use Calculator') // Si contiene este texto la pagina
   })
   /* COMENTADO A PARTIR DE ACA
 

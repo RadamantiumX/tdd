@@ -9,14 +9,13 @@ export const AppCalculator = () => {
   const { token } = useStateContext()
     return(
     <>
-     {token&&<NavBar/>}
-      <Header/>
+    
+     
         <main> 
-          <Notes/>
-          {token&&<>
-          <NewNotes/>
+          
+         
           <Calculator/>
-          </>}
+          
         </main>
     </>
     )
