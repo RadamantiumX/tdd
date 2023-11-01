@@ -2,8 +2,10 @@ name: Deployment Pipeline
 # Las Actions de cada dependencia externa a GITHUB la podemos encontrar en el MARKETPLACE de GITHUB
 on:
     push: # Evento de GIT q espera
-        branches:
-            - "master" # Mi rama principal
+        branches: [master] # Mi rama principal
+    pull_request: # Evento para las PULL REQUEST de otra rama 
+        branches: [master] # Mi rama principal
+        types: [opened, synchronize] # Cuando sea abierto y sincronizado (commits, push, etc)    
 
 jobs:
     deploy:
