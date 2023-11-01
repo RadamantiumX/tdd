@@ -1,9 +1,9 @@
 name: Deployment Pipeline
 
 on:
-    push:
+    push: # Evento de GIT q espera
         branches:
-            - "master"
+            - "master" # Mi rama principal
 
 jobs:
     deploy:
