@@ -1,11 +1,11 @@
 /**
  * Colocar en el package.json el script "dev" de "vite" para poder iniciar el entorno REACT
  */
-import { createRoot } from 'react-dom/client'
+import ReactDOM  from 'react-dom/client'
 import { AppCalculator } from './AppCalculator'
 import { ContextProvider } from './context/ContextProvider'
 
-createRoot(
+ReactDOM.createRoot(
   document.getElementById('root')
 ).render(
   <ContextProvider>
