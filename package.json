@@ -8,7 +8,7 @@
     "dev": "vite",
     "test": "vitest",
     "build-vite": "vite build",
-    "build": "[my-framework] build --output public",
+    "build": "vite build --output public",
     "start-test": "NODE_ENV=test node-server app.js",
     "start-prod": "node node-server/app.js",
     "coverage": "vitest run --coverage",
